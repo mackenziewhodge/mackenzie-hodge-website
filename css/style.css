@@ -80,3 +80,35 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width:800px){
+  h1{
+    font-size: 48px;
+  }
+  h2,h3{
+
+  font-size:18px;
+}
+  p{
+    text-align: left;
+    font-size:14px;
+  }
+  .primary-link{
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+    .secondary-link {
+      font-size: 12px;
+      padding: 10px 5px;
+    }
+
+  .email-link{
+    font-size: 18px;
+  }
+  .images-gallery img{
+
+  max-width: 200px;
+  display: block;
+  margin:auto;
+  }
+}
